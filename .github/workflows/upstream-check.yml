@@ -1,0 +1,78 @@
+name: Rastreador do upstream
+
+# Consulta a última release do fork oficial e, quando aparece versão nova,
+# abre (ou atualiza) uma issue aqui avisando que o APK pt-BR precisa ser gerado.
+on:
+  schedule:
+    - cron: "23 9 * * *" # todo dia, 09:23 UTC (06:23 em Brasília)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: upstream-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Comparar com a versão que este APK usa
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UPSTREAM: homelessbrian/NuvioPlusIPTV
+        run: |
+          set -euo pipefail
+
+          based_on=$(python3 -c "import json;print(json.load(open('upstream.json'))['based_on'])")
+          latest=$(gh release view --repo "$UPSTREAM" --json tagName -q .tagName)
+
+          echo "base pt-BR:     $based_on"
+          echo "upstream atual: $latest"
+
+          if [ "$latest" = "$based_on" ]; then
+            echo "Sem novidades: o APK publicado já usa a release mais recente."
+            exit 0
+          fi
+
+          title="Nova versão do upstream: $latest"
+          body=$(cat <<EOF
+          O fork oficial publicou uma release mais nova que a base deste repositório.
+
+          | | |
+          |---|---|
+          | Base do APK pt-BR | \`$based_on\` |
+          | Upstream mais recente | \`$latest\` |
+
+          Release oficial: https://github.com/$UPSTREAM/releases/tag/$latest
+
+          Checklist para publicar a versão em português:
+
+          - [ ] Baixar o APK universal da nova release
+          - [ ] Conferir que continua assinado com \`CN=Nuvio Live TV fork\`
+          - [ ] Regenerar \`uiclasses.txt\` (a ofuscação pode mudar entre versões)
+          - [ ] Rodar o patch e revisar as chaves não encontradas
+          - [ ] Traduzir os textos novos que aparecerem
+          - [ ] Remontar, assinar e verificar (\`patch/BUILD.md\`)
+          - [ ] Publicar o release e atualizar \`upstream.json\` (\`based_on\`, \`ptbr_release\`, \`asset_name\`)
+
+          Se o mantenedor já tiver integrado a tradução oficialmente (issue #136), este
+          repositório pode ser arquivado.
+          EOF
+          )
+
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "\"$title\" in:title" --json number -q '.[0].number // empty')
+
+          if [ -n "$existing" ]; then
+            echo "Issue já aberta (#$existing); adicionando lembrete."
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" \
+              --body "Verificação de $(date -u +%d/%m/%Y): \`$latest\` continua sendo a release mais recente do upstream."
+          else
+            echo "Abrindo issue."
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi

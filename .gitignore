@@ -1,0 +1,11 @@
+# artefatos de build
+dist/
+*.apk
+*.apk.idsig
+*.jar
+base.apk
+out_dex/
+*.dex
+dexstrings.tsv
+verify.tsv
+signed/
