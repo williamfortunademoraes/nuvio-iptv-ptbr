@@ -93,7 +93,19 @@ gh release create v<TAG>-ptBR signed/*-signed.apk \
   --notes-file NOTES.md
 ```
 
+Depois **atualize o release de link fixo** (é o que o código do Downloader usa;
+o endereço não muda, só o arquivo):
+
+```bash
+cp signed/*-signed.apk NuvioPlusIPTV.apk
+gh release upload downloader NuvioPlusIPTV.apk --clobber
+```
+
 E atualize `upstream.json` (`based_on`, `ptbr_release`) para o rastreador parar de avisar.
+
+> O código numérico do Downloader aponta para
+> `releases/download/downloader/NuvioPlusIPTV.apk`, então ele continua válido
+> entre versões — não precisa registrar um código novo a cada release.
 
 ---
 

@@ -12,9 +12,46 @@ SHA-256: `9d7dc1340fd1ad0a0049679090960c9de232c8cb127e87d5a2b24ebc774dbade`
 > Link direto, sempre aponta para o APK da versão mais recente deste repositório.
 > Outras versões: [Releases](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases).
 
+### Link permanente (para o app Downloader)
+
+Este endereço **nunca muda**: a cada versão nova o arquivo é substituído no mesmo lugar.
+
+```
+https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/download/downloader/NuvioPlusIPTV.apk
+```
+
+Atalho para digitar no controle: **[is.gd/nuvio_ptbr](https://is.gd/nuvio_ptbr)**
+
+> **Código no Downloader:** `em breve` — falta registrar o código numérico no
+> [encurtador do AFTVnews](https://aftv.news) (o site exige captcha, então é feito
+> manualmente uma única vez). Depois de criado, o código fica aqui e aponta para o
+> link permanente acima.
+
 | Base (upstream) | Este APK | Arquivo | SHA-256 |
 |---|---|---|---|
 | `1.2.0-beta.2.1` | `1.2.0-beta.2.1-ptBR` | `NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.apk` | `9d7dc134…4dbade` |
+
+---
+
+## 📺 Baixar direto na Android TV
+
+O caminho mais rápido é o app **[Downloader](https://play.google.com/store/apps/details?id=com.esaba.downloader)** (AFTVnews), que já vem com navegador e instalador:
+
+1. Instale o **Downloader** na TV (Play Store: *Downloader* / *AFTVnews*).
+2. Em **Settings → Apps → Downloader → Permissões**, permita *instalar apps desconhecidos*.
+3. Abra o Downloader e cole na barra de URL: **`is.gd/nuvio_ptbr`**
+   (ou, quando o código estiver publicado aqui, digite só o número no campo de URL).
+4. Termine o download e aceite **Install** / **Instalar** — ele atualiza por cima do app existente.
+
+Alternativas, se preferir:
+
+| Método | Como |
+|---|---|
+| **Celular → TV** | Instale *Send files to TV* nos dois; baixe o APK no celular e envie para a TV. |
+| **Pendrive** | Baixe no PC, copie para um pendrive e abra pelo gerenciador de arquivos da TV. |
+| **ADB (rede)** | `adb connect IP_DA_TV:5555 && adb install -r NuvioPlusIPTV-ptBR.apk` |
+
+> Dica: o *Downloader* lembra o histórico, então na próxima atualização é só abrir o app e repetir o último endereço.
 
 ---
 
