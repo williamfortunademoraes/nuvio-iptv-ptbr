@@ -1,16 +1,16 @@
 # Nuvio + IPTV — Português do Brasil (não oficial)
 
-[![Última versão](https://img.shields.io/github/v/release/williamfortunademoraes/nuvio-ptbr?label=vers%C3%A3o&color=2ea043)](https://github.com/williamfortunademoraes/nuvio-ptbr/releases/latest)
-[![Rastreador do upstream](https://github.com/williamfortunademoraes/nuvio-ptbr/actions/workflows/upstream-check.yml/badge.svg)](https://github.com/williamfortunademoraes/nuvio-ptbr/actions/workflows/upstream-check.yml)
+[![Última versão](https://img.shields.io/github/v/release/williamfortunademoraes/nuvio-iptv-ptbr?label=vers%C3%A3o&color=2ea043)](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/latest)
+[![Rastreador do upstream](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/actions/workflows/upstream-check.yml/badge.svg)](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/actions/workflows/upstream-check.yml)
 
 ## ⬇️ Baixar
 
-### **[NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.apk](https://github.com/williamfortunademoraes/nuvio-ptbr/releases/latest/download/NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.apk)** — 188 MB
+### **[NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.apk](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/latest/download/NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.apk)** — 188 MB
 
 SHA-256: `9d7dc1340fd1ad0a0049679090960c9de232c8cb127e87d5a2b24ebc774dbade`
 
 > Link direto, sempre aponta para o APK da versão mais recente deste repositório.
-> Outras versões: [Releases](https://github.com/williamfortunademoraes/nuvio-ptbr/releases).
+> Outras versões: [Releases](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases).
 
 | Base (upstream) | Este APK | Arquivo | SHA-256 |
 |---|---|---|---|
