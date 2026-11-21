@@ -1,3 +1,4 @@
 * text=auto eol=lf
 *.apk binary
 *.jar binary
+patch/mapping.tsv whitespace=-blank-at-eol
