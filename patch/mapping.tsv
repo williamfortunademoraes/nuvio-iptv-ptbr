@@ -779,3 +779,80 @@ Your favorites and recent channels. For any other channel, long-press it in the 
 Only 	Apenas 
 None of your 	Nenhum dos seus canais de 
  channels list this game, so here are all of them.	 lista este jogo. Veja todos os canais disponíveis.
+Countries: follow one to see all its games, from qualifiers and the Nations League to friendlies, the World Cup and the Euros.	Seleções: siga uma para ver todos os jogos, das eliminatórias e da Liga das Nações aos amistosos, à Copa do Mundo e à Eurocopa.
+Countries: follow one to see all its games, from friendlies and the Nations League to the Euros and the World Cup.	Seleções: siga uma para ver todos os jogos, dos amistosos e da Liga das Nações à Eurocopa e à Copa do Mundo.
+Countries: follow one to see all its games, from the Six Nations and the Nations Championship to the World Cup.	Seleções: siga uma para ver todos os jogos, do Seis Nações e do Campeonato das Nações à Copa do Mundo.
+Nothing here yet. Shows you watch, your Library and shows you ring the bell on show up here with their new episodes.	Nada por aqui ainda. Os programas que você assiste, os da sua Biblioteca e aqueles cujos avisos você ativou aparecem aqui quando há episódios novos.
+No available stream for this game right now. Choose another game or check its broadcasts on the Sports page.	Nenhuma transmissão disponível para este jogo agora. Escolha outro jogo ou confira as transmissões na página Esportes.
+Turn on On Demand for a playlist in Settings → Live TV, or show some groups with the settings button.	Ative o conteúdo sob demanda para uma playlist em Configurações → TV ao vivo ou mostre algum grupo pelo botão de configurações.
+None of your shows are in your Live TV guide right now. Your guide usually covers the next few days.	Nenhum dos seus programas aparece no guia da TV ao vivo agora. O guia geralmente mostra os próximos dias.
+This TV can't decode this stream alongside the others. Remove a pane or choose another channel.	Esta TV não consegue decodificar esta transmissão junto com as outras. Remova uma tela ou escolha outro canal.
+OK: play here, OK again: full screen  ·  Hold OK: other copies, pick a channel	OK: reproduzir aqui; OK novamente: tela cheia · Segure OK: outras opções e escolha de canal
+Your app's ability to insert data into the TvProvider may have been revoked.	O app pode ter perdido a permissão para adicionar dados ao provedor de TV do Android.
+The provider refused this stream. Check the account or try another channel.	O provedor recusou esta transmissão. Confira a conta ou tente outro canal.
+The provider stopped sending this show. Try again, or skip to another point	O provedor parou de enviar este programa. Tente novamente ou avance para outro ponto.
+Catch-up: this provider doesn't do HLS replays; using TS for the next week	Replay: este provedor não oferece replays em HLS; usaremos TS na próxima semana.
+The provider's connection limit was reached. Remove a pane or try again.	O limite de conexões do provedor foi atingido. Remova uma tela ou tente novamente.
+Lost the connection to this stream. Retry or choose another channel.	A conexão com esta transmissão foi perdida. Tente novamente ou escolha outro canal.
+This protected channel couldn't be unlocked. Try another channel.	Não foi possível desbloquear este canal protegido. Tente outro canal.
+Multiview already has 4 channels. Open Multiview to change them.	A Multitela já está com 4 canais. Abra a Multitela para alterá-los.
+The Stalker stream changed its buffer format. Retry playback.	A transmissão Stalker mudou o formato do buffer. Tente reproduzir novamente.
+Can't reach this stream. Check the connection or try again.	Não foi possível acessar esta transmissão. Confira a conexão ou tente novamente.
+Catch-up came as a live stream; starting from the beginning	O replay chegou como transmissão ao vivo; iniciando do começo.
+Catch-up came as the live stream with rewind; jumping back	O replay chegou como transmissão ao vivo com retrocesso; voltando ao início.
+Each league's own channel, found in your playlists by name.	O canal oficial de cada liga, localizado pelo nome nas suas playlists.
+This stream couldn't play. Retry or choose another channel.	Não foi possível reproduzir esta transmissão. Tente novamente ou escolha outro canal.
+The provider isn't sending this channel properly right now	O provedor não está transmitindo este canal corretamente agora.
+The provider doesn't have this channel's stream right now	O provedor não tem a transmissão deste canal disponível agora.
+No picture after moving the video; restarting the stream	A imagem não voltou após mover o vídeo; reiniciando a transmissão.
+This TV couldn't start this stream. Try another channel.	Esta TV não conseguiu iniciar a transmissão. Tente outro canal.
+This TV couldn't play this channel's picture or sound	Esta TV não conseguiu reproduzir a imagem ou o áudio deste canal.
+This DRM license format is unavailable in Multiview	Este formato de licença DRM não funciona na Multitela.
+The provider couldn't open this stream. Try again.	O provedor não conseguiu abrir esta transmissão. Tente novamente.
+This channel is protected and couldn't be unlocked	Este canal é protegido e não foi possível desbloqueá-lo.
+The provider is having trouble. Try again later.	O provedor está com problemas. Tente novamente mais tarde.
+This stream is unavailable. Try another channel.	Esta transmissão está indisponível. Tente outro canal.
+This stream format is unavailable in Multiview	Este formato de transmissão não funciona na Multitela.
+The provider sent an invalid stream redirect.	O provedor enviou um redirecionamento de transmissão inválido.
+Encrypted portal streams cannot be buffered.	Não é possível armazenar transmissões criptografadas do portal no buffer.
+This DRM scheme is unavailable in Multiview	Este sistema DRM não funciona na Multitela.
+This channel isn't playing right now	Este canal não está transmitindo no momento.
+Can't reach the provider right now	Não foi possível acessar o provedor agora.
+Not found. OK to choose a channel	Não encontrado. Pressione OK para escolher um canal.
+Playing from the recording failed	Não foi possível reproduzir a gravação.
+This recording couldn't be played	Não foi possível reproduzir esta gravação.
+Buffer playback error; reloading	Erro ao reproduzir o buffer; carregando novamente.
+No Program Guide Available	Nenhum guia de programação disponível.
+Importing movies and series…	Importando filmes e séries…
+Updating Live TV…	Atualizando a TV ao vivo…
+Recently Watched Channels	Canais assistidos recentemente
+Leagues and events	Ligas e eventos
+Live Now in Sports	Ao vivo em Esportes
+Starting in a minute	Começa em um minuto
+In a qualifying place	Em posição de classificação
+No guide info	Sem informações do guia
+nothing to turn on	nada para ativar
+failed to connect	falha na conexão
+network is unreachable	rede inacessível
+unable to resolve host	não foi possível localizar o servidor
+no address associated	nenhum endereço associado
+No channels match "	Nenhum canal corresponde a "
+No logos match "	Nenhum logo corresponde a "
+No channels in 	Nenhum canal em 
+No games found for 	Nenhum jogo encontrado para 
+Nothing coming up in 	Nada previsto para 
+No channel found for 	Nenhum canal encontrado para 
+Pick the channel for 	Escolha o canal para 
+Your channel for 	Seu canal para 
+Watch live on 	Assistir ao vivo em 
+Bell turned off for 	Avisos desativados para 
+Bell on: you'll get a card on Home when 	Aviso ativado: você verá um cartão na tela inicial quando 
+Keep the Last 	Manter os últimos 
+Set to record "	Programado para gravar "
+Recording every "	Gravar a cada "
+Delete all of "	Excluir tudo de "
+App in the background: 	App em segundo plano: 
+HLS recording stopped: 	Gravação HLS interrompida: 
+Provider answered HTTP 	O provedor respondeu com HTTP 
+qualified for the finals	classificado para as finais
+Qualified as hosts	Classificado como anfitrião

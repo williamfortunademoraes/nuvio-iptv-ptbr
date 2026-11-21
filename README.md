@@ -5,9 +5,9 @@
 
 ## ⬇️ Baixar
 
-### **[NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.2.apk](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/latest/download/NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.2.apk)** — 188 MB
+### **[NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.3.apk](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/latest/download/NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.3.apk)** — 188 MB
 
-SHA-256: `661d144d517195ddd8255b36ff221e7118820cec3831ff23c993caf8db43c54d`
+SHA-256: `08c6c809cfe62aeb1c79be016db1e93b0dc71e2e2bae4ff69153b0b4a72d63a9`
 
 > Link direto, sempre aponta para o APK da versão mais recente deste repositório.
 > Outras versões: [Releases](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases).
@@ -27,7 +27,7 @@ Atalho para digitar no controle: **[is.gd/nuvio_ptbr](https://is.gd/nuvio_ptbr)*
 
 | Base (upstream) | Este APK | Arquivo | SHA-256 |
 |---|---|---|---|
-| `1.2.0-beta.2.1` | `1.2.0-beta.2.1-ptBR.2` | `NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.2.apk` | `661d144d…43c54d` |
+| `1.2.0-beta.2.1` | `1.2.0-beta.2.1-ptBR.3` | `NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.3.apk` | `08c6c809…2d63a9` |
 
 ---
 
@@ -91,13 +91,13 @@ O APK é assinado com **a mesma chave do app oficial**, então ele **atualiza po
 **Por ADB**
 ```bash
 adb connect IP_DA_TV:5555
-adb install -r NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.2.apk
+adb install -r NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.3.apk
 ```
 
 **Conferir o arquivo (opcional)**
 ```bash
-sha256sum NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.2.apk
-# 661d144d517195ddd8255b36ff221e7118820cec3831ff23c993caf8db43c54d
+sha256sum NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.3.apk
+# 08c6c809cfe62aeb1c79be016db1e93b0dc71e2e2bae4ff69153b0b4a72d63a9
 ```
 
 ## Atualizações
