@@ -12,18 +12,12 @@ SHA-256: `08c6c809cfe62aeb1c79be016db1e93b0dc71e2e2bae4ff69153b0b4a72d63a9`
 > Link direto, sempre aponta para o APK da versão mais recente deste repositório.
 > Outras versões: [Releases](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases).
 
-### Link permanente (para o app Downloader)
+### Instalar na TV pelo Downloader
 
-Este endereço **nunca muda**: a cada versão nova o arquivo é substituído no mesmo lugar.
+Código AFTVnews: **`2616486`** — ele aponta diretamente para o APK pt-BR desta versão.
 
-```
-https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/download/downloader/NuvioPlusIPTV.apk
-```
-
-Atalho para digitar no controle: **[is.gd/nuvio_ptbr](https://is.gd/nuvio_ptbr)**
-
-> **Código no Downloader:** `1706734` — digite esse número no app Downloader para abrir o APK.
-> Atalho: [aftv.news/1706734](https://aftv.news/1706734). Ele aponta para o link permanente acima.
+Atalho: **[aftv.news/2616486](https://aftv.news/2616486)**  
+Destino: [baixar o APK ptBR.3](https://github.com/williamfortunademoraes/nuvio-iptv-ptbr/releases/latest/download/NuvioPlusIPTV-1.2.0-beta.2.1-ptBR.3.apk)
 
 | Base (upstream) | Este APK | Arquivo | SHA-256 |
 |---|---|---|---|
@@ -37,7 +31,7 @@ O caminho mais rápido é o app **[Downloader](https://play.google.com/store/app
 
 1. Instale o **Downloader** na TV (Play Store: *Downloader* / *AFTVnews*).
 2. Em **Settings → Apps → Downloader → Permissões**, permita *instalar apps desconhecidos*.
-3. Abra o Downloader e digite o código **`1706734`** no campo de URL. Também é possível usar **`aftv.news/1706734`**.
+3. Abra o Downloader e digite o código **`2616486`** no campo de URL. Também é possível usar **`aftv.news/2616486`**.
 4. Termine o download e aceite **Install** / **Instalar** — ele atualiza por cima do app existente.
 
 Alternativas, se preferir:
